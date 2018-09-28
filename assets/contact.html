@@ -4,34 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Qusai Amer</title>
-  <link rel="stylesheet" type="text/css" href="substyle.css"></head>
+  <link rel="stylesheet" type="text/css" href="css/style.css"></head>
 
 <body>
-<div>
-    <header>
-        <h1><a class="border" href="../index.html">Qusai Amer</a></h1>
-       
-    <ul id="heading">
-        <li><a href="../index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    </header>
-
+        <div class="header-container">
+            <header>Qusai Amer</header>
+    
+            <nav>
+                <ul>
+                    <li class="border"><a href="../index.html">About</a></li>
+                    <li class="border"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        
+        </div>
     <h2>Contact</h2>
-</div>
+    
 
 <div class="main-container">
     
         <form id="main-bio" target="_blank">
       
-          <label id="main-bio">First Name</label>
+          <label for="First Name">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
-          <label id="main-bio">Last Name</label>
+          <label for="Last Name">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       
-          <label id="main-bio">Subject</label>
+          <label for="subject">Subject</label>
           <input type="text" id="subject" name="subject" placeholder="Write something.."></textarea>
         
           <label for="message">Message</label>
@@ -44,10 +45,11 @@
 </div>
 <div id="button"><a href="../index.html">Go Back</a></div>
         </div>
-
+<footer id="footer">
 <div>
-    <p id=footer>Copyright &copy;2018 Qusai Amer</p>
+    <p>Copyright&copy;2018 Qusai Amer</p>
 </div>
+</footer>
 
 </body>
 </html>
